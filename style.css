@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family:
+    "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", Arial, sans-serif;
+}
+
+.container {
+  margin: 5rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#frontImg {
+  border: 5px solid rgb(233, 215, 73);
+  border-radius: 5px;
+  width: 350px;
+  height: 450px;
+}
+
+.text {
+  font-size: 1.95rem;
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border: 5px solid rgb(233, 215, 73);
+  border-radius: 5px;
+  width: 95%;
+}
+button:hover {
+  background-color: #da1c68;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {
+  #frontImg {
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 250px;
+    height: 350px;
+  }
+}
