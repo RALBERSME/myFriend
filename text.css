@@ -110,6 +110,13 @@ button {
 .btn-stop:hover {
   background-color: #860541;
 }
+.btn-engl {
+  background-color: dodgerblue;
+  color: white;
+}
+.btn-engl:hover {
+  background-color: rgb(4, 71, 138);
+}
 .containerBtn {
   max-width: 400px;
   padding: 200px auto;
